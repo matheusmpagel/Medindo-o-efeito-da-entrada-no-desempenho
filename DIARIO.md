@@ -34,12 +34,6 @@ a lista ordenada, e a mediana mediria o cenário ordenado sem percebermos.
 Percebemos isso antes de medir e passamos a usar uma cópia (`lista[:]`) a cada
 execução.
 
-### Erros ao escrever o `medir.py`
-
-- Faltavam os imports de `inSort` e `meSort` (`NameError`).
-- Um `for` ficou sem corpo por causa da indentação (`IndentationError`).
-- `cenarios.item()` em vez de `cenarios.items()`.
-
 ### Ruído no Insertion Sort com entrada ordenada
 
 Em n = 8.000 a razão deu 4,68, quando o esperado era cerca de 2. Os tempos desse
